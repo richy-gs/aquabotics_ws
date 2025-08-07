@@ -6,6 +6,10 @@ This repository contains the ROS 2 workspace for **Aquabotics**, our open-source
 - Run a joystick‐to‐motor command node  
 - Visualize and extend the control logic  
 
+<img src="images/image.png" 
+     alt="Joy Controller Workflow" 
+     width="600"/>
+
 ---
 
 ## 📂 Repository Structure
