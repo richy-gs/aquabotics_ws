@@ -1,6 +1,6 @@
-# Aquabotics ROS 2 Workspace
+# Aquabotics ROS2 Workspace
 
-This repository contains the ROS 2 workspace for **Aquabotics**, our open-source remotely-operated underwater vehicle. It includes all the packages, launch files, and helper scripts you need to:
+This repository contains the ROS2 workspace for **Aquabotics**, our open-source remotely-operated underwater vehicle. It includes all the packages, launch files, and helper scripts you need to:
 
 - Read input from an Xbox gamepad  
 - Run a joystick‐to‐motor command node  
@@ -34,7 +34,7 @@ aquabotics_ws/
 ```
 
 - **launch/**  
-  Contains the main ROS 2 launch file which brings up both the `joy_node` and the `joy_controller` nodes in one command.
+  Contains the main ROS2 launch file which brings up both the `joy_node` and the `joy_controller` nodes in one command.
 
 - **src/joy_node**  
   A simple node that reads raw axes and button data from an Xbox gamepad (via `joy_linux` or `joy`), and publishes it on the `/joy` topic.
@@ -47,7 +47,7 @@ aquabotics_ws/
 ## 🚀 Prerequisites
 
 - Ubuntu 22.04  
-- ROS 2 Humble
+- ROS2 Humble
 - `joy` package installed (`sudo apt install ros-<distro>-joy`)
 
 ---
