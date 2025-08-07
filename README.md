@@ -85,6 +85,7 @@ This will:
 ---
 
 ## 📈 Main Workflow Diagram
+![Joy Controller Workflow](images/joy_controller_flowchart.png)
 
 Figure: Flowchart of the joystick control logic.
 
