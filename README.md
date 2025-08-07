@@ -85,9 +85,11 @@ This will:
 ---
 
 ## 📈 Main Workflow Diagram
-![Joy Controller Workflow](images/joy_controller_flowchart.png)
+<img src="images/joy_controller_flowchart.png" 
+     alt="Joy Controller Workflow" 
+     width="400"/>
 
-Figure: Flowchart of the joystick control logic.
+__*Figure: Flowchart of the joystick control logic.*__
 
 1. ros2 launch brings up both nodes.
 2. `joy_node` reads Xbox gamepad data and publishes to `/joy`.
